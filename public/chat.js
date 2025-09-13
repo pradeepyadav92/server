@@ -94,7 +94,7 @@ function handleLogin(e) {
     const password = document.getElementById('loginPassword').value;
 
     if (!username || !password) {
-        showError('Please fill in all fields');
+        showError('Please fill all the fields');
         return;
     }
 
